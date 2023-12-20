@@ -11,12 +11,12 @@
 
 Make example for this keyboard (after setting up your build environment):
 
-Fill in "manufacturer", "Keyboard_Name", and "maintainer"
-Make sure you have wired the columns and rows to the right matrix on your ardiuono (see note above matrix pins)
-To change what you want your keys to do go to the keymap, and fillout the ortho layout following this page "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md"
+##Fill in "manufacturer", "Keyboard_Name", and "maintainer"
+##Make sure you have wired the columns and rows to the right matrix on your ardiuono (see note above matrix pins)
+##To change what you want your keys to do go to the keymap, and fillout the ortho layout following this page "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md"
 
 Flashing example for this keyboard:
-Flash using QMK configurator
+##Flash using QMK configurator
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
