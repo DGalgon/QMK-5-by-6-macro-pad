@@ -4,17 +4,19 @@
 
 *A short description of the keyboard/project*
 
-* Keyboard Maintainer: [Daniel](https://github.com/DGalgon)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Hardware Supported: *Arduino Pro Micro*
+* Hardware Availability: *https://www.amazon.com/gp/product/B09J4MP1QK/ref=ppx_yo_dt_b_asin_title_o06_s01?ie=UTF8&th=1*
+* https://www.amazon.com/gp/product/B06XB1R2NK/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1*
+* 30x Keyboard Switches of your choosing*
 
 Make example for this keyboard (after setting up your build environment):
 
-    make handwired/swmacro:default
+Fill in "manufacturer", "Keyboard_Name", and "maintainer"
+Make sure you have wired the columns and rows to the right matrix on your ardiuono (see note above matrix pins)
+To change what you want your keys to do go to the keymap, and fillout the ortho layout following this page "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md"
 
 Flashing example for this keyboard:
-
-    make handwired/swmacro:default:flash
+Flash using QMK configurator
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
